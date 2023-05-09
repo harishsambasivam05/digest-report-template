@@ -25,19 +25,27 @@ async function generatePDF(html) {
   await page.setContent(html, {
     waitUntil: ["load", "networkidle0", "domcontentloaded","networkidle2"],
   });
+  await page.waitForTimeout(2000);
   await page.pdf({ path: "chart.pdf" });
-  // await browser.close();
+  await browser.close();
 }
 
+// generating the html by passing template name and dynamic data
 const html = generateHtml("weeklyReport", {
-  dataLabels: ["W1", "W2", "W3", "W4"],
-  seriesName: "Scans",
-  seriesData: [300, 450, 600, 400],
+  scanGraphLabels: ["W1", "W2", "W3", "W4"],
+  scanData: [300, 450, 600, 400],
+  weeklyIncidentLabels: ['W1', 'W2', 'W3', 'W4'],
+  weeklyIncidentData: [{
+    label: 'Resolved',
+    data: [50, 60, 70, 180]
+    }, {
+      label: 'Open Issues',
+      data: [100, 200, 300, 400]
+    }, 
+    {
+      label: "Pending",
+      data: [50, 22, 33, 122]
+    }]
 });
-
-// const source = fs.readFileSync("weeklyReport.hbs", "utf8");
-// const template = handlebars.compile(source);
-// const myArray = { data: [1, 2, 3, 4, 5] };
-// const html = template({ myArray });
 
 generatePDF(html);

@@ -5,8 +5,14 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,400;1,500&display=swap" rel="stylesheet">
     <style>
+
+html {
+  -webkit-print-color-adjust: exact;
+}
+
       * {
           padding:0;
           margin:0;
@@ -61,7 +67,7 @@
     </style>
   </head>
   <body >
-  <div class="container">
+  <div class="container bg-pink-800">
       <div class="heading">
           <div class="heading-text">
             <p class="heading-title">Weekly Update from Scrut Automation</p>
@@ -78,7 +84,7 @@
         <h3>Total Project Issues</h3>
         <canvas id="weeklyAnalysis" width="100%"></canvas>
         <h3>Total Project Scans</h3>
-        <canvas id="issuesFound" width="100%"></canvas>
+        <canvas id="scans" width="100%"></canvas>
       </div>
 
       <div class="summary">
@@ -91,18 +97,18 @@
     <script>
 
       // get all the canvas elements to render charts
-      var ctx = document.getElementById('issuesFound').getContext('2d');
+      var ctx = document.getElementById('scans').getContext('2d');
       var weeklyAnalysis = document.getElementById('weeklyAnalysis').getContext('2d');
 
      // weekly analysis with dynamic data
        var myChart = new Chart(ctx, { 
         type: 'bar', 
         data: { 
-          labels: {{{json dataLabels}}}, 
+          labels: {{{json scanGraphLabels}}}, 
           datasets: [
             { 
               label: "Scanned", 
-              data: {{{json seriesData}}}
+              data: {{{json scanData}}}
             }
           ] 
         },
@@ -132,19 +138,8 @@
     var chart = new Chart(weeklyAnalysis, {
       type: 'bar',
       data: {
-        labels: ['W1', 'W2', 'W3', 'W4'],
-        datasets: [{
-          label: 'Resolved',
-          data: [50, 60, 70, 180]
-        }, {
-          label: 'Open Issues',
-          data: [100, 200, 300, 400]
-        }, 
-        {
-          label: "Pending",
-          data: [50, 22, 33, 122]
-        }
-        ]
+        labels: {{{json weeklyIncidentLabels}}},
+        datasets:  {{{json weeklyIncidentData}}}
       },
       options: {
        plugins: {
