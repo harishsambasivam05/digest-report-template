@@ -1,0 +1,17 @@
+{
+  "name": "digest-mails-job",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@trycourier/courier": "^4.2.0",
+    "dotenv": "^16.0.3",
+    "html-pdf": "^3.0.1"
+  }
+}

@@ -1,0 +1,137 @@
+2023-05-08T11:36:09.122Z - error: Error when processing render request 1
+(because) spawn Unknown system error -86
+Error: spawn Unknown system error -86
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at Object.spawn (node:child_process:733:9)
+    at BrowserRunner.start (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/BrowserRunner.js:119:34)
+    at ChromeLauncher.launch (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/ChromeLauncher.js:76:16)
+    at async createBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+    at async allocateBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+    at async getBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+    at async module.exports (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+    at async execute (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+    at async /Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:61:20 rootId=w9hu0z19h0ko38d, id=w9hu0z19h0ko38d
+2023-05-08T11:36:09.122Z - error: Rendering request 1 finished with error in 341 ms rootId=w9hu0z19h0ko38d, id=w9hu0z19h0ko38d
+2023-05-08T11:37:49.335Z - error: Error when processing render request 3
+(because) spawn Unknown system error -86
+Error: spawn Unknown system error -86
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at Object.spawn (node:child_process:733:9)
+    at BrowserRunner.start (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/BrowserRunner.js:119:34)
+    at ChromeLauncher.launch (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/ChromeLauncher.js:76:16)
+    at async createBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+    at async allocateBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+    at async getBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+    at async module.exports (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+    at async execute (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+    at async /Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:61:20 rootId=kkq99iy61rvnsdl, id=kkq99iy61rvnsdl
+2023-05-08T11:37:49.335Z - error: Rendering request 3 finished with error in 345 ms rootId=kkq99iy61rvnsdl, id=kkq99iy61rvnsdl
+2023-05-08T11:39:06.286Z - error: Error when processing render request 5
+(because) spawn Unknown system error -86
+Error: spawn Unknown system error -86
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at Object.spawn (node:child_process:733:9)
+    at BrowserRunner.start (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/BrowserRunner.js:119:34)
+    at ChromeLauncher.launch (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/ChromeLauncher.js:76:16)
+    at async createBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+    at async allocateBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+    at async getBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+    at async module.exports (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+    at async execute (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+    at async /Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:61:20 rootId=g9ddck7ogvrfe7e, id=g9ddck7ogvrfe7e
+2023-05-08T11:39:06.286Z - error: Rendering request 5 finished with error in 289 ms rootId=g9ddck7ogvrfe7e, id=g9ddck7ogvrfe7e
+2023-05-08T11:39:49.741Z - error: Error when processing render request 1
+(because) spawn Unknown system error -86
+Error: spawn Unknown system error -86
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at Object.spawn (node:child_process:733:9)
+    at BrowserRunner.start (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/BrowserRunner.js:119:34)
+    at ChromeLauncher.launch (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/ChromeLauncher.js:76:16)
+    at async createBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+    at async allocateBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+    at async getBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+    at async module.exports (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+    at async execute (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+    at async /Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:61:20 rootId=e9kefvd1tau17wn, id=e9kefvd1tau17wn
+2023-05-08T11:39:49.741Z - error: Rendering request 1 finished with error in 2247 ms rootId=e9kefvd1tau17wn, id=e9kefvd1tau17wn
+2023-05-08T11:43:55.406Z - error: Error when processing render request 3
+(because) spawn Unknown system error -86
+Error: spawn Unknown system error -86
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at Object.spawn (node:child_process:733:9)
+    at BrowserRunner.start (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/BrowserRunner.js:119:34)
+    at ChromeLauncher.launch (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/ChromeLauncher.js:76:16)
+    at async createBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+    at async allocateBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+    at async getBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+    at async module.exports (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+    at async execute (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+    at async /Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:61:20 rootId=oa99ep1f0j8x4gq, id=oa99ep1f0j8x4gq
+2023-05-08T11:43:55.407Z - error: Rendering request 3 finished with error in 2023 ms rootId=oa99ep1f0j8x4gq, id=oa99ep1f0j8x4gq
+2023-05-08T11:47:33.498Z - error: Error when processing render request 5
+(because) spawn Unknown system error -86
+Error: spawn Unknown system error -86
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at Object.spawn (node:child_process:733:9)
+    at BrowserRunner.start (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/BrowserRunner.js:119:34)
+    at ChromeLauncher.launch (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/ChromeLauncher.js:76:16)
+    at async createBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+    at async allocateBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+    at async getBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+    at async module.exports (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+    at async execute (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+    at async /Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:61:20 rootId=a74qwgvg3k8ebcb, id=a74qwgvg3k8ebcb
+2023-05-08T11:47:33.499Z - error: Rendering request 5 finished with error in 325 ms rootId=a74qwgvg3k8ebcb, id=a74qwgvg3k8ebcb
+2023-05-08T11:48:39.808Z - error: Error when processing render request 1
+(because) spawn Unknown system error -86
+Error: spawn Unknown system error -86
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at Object.spawn (node:child_process:733:9)
+    at BrowserRunner.start (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/BrowserRunner.js:119:34)
+    at ChromeLauncher.launch (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/ChromeLauncher.js:76:16)
+    at async createBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+    at async allocateBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+    at async getBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+    at async module.exports (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+    at async execute (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+    at async /Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:61:20 rootId=8eqvkeunnj1p064, id=8eqvkeunnj1p064
+2023-05-08T11:48:39.808Z - error: Rendering request 1 finished with error in 1253 ms rootId=8eqvkeunnj1p064, id=8eqvkeunnj1p064
+2023-05-08T11:52:20.833Z - error: Error when starting http server on port 9001 Error: listen EADDRINUSE: address already in use :::9001
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at /Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-express/lib/main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-express/lib/main.js:16:10)
+    at /Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-express/lib/main.js:50:14
+    at Object.start (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-express/lib/main.js:125:13)
+    at Object.<anonymous> (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-express/lib/main.js:333:30)
+    at async ListenerCollection.fire (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:21)
+2023-05-08T11:53:13.820Z - error: Error when processing render request 1
+(because) spawn Unknown system error -86
+Error: spawn Unknown system error -86
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at Object.spawn (node:child_process:733:9)
+    at BrowserRunner.start (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/BrowserRunner.js:119:34)
+    at ChromeLauncher.launch (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/ChromeLauncher.js:76:16)
+    at async createBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+    at async allocateBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+    at async getBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+    at async module.exports (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+    at async execute (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+    at async /Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:61:20 rootId=mt6mnrwk2lsxmyp, id=mt6mnrwk2lsxmyp
+2023-05-08T11:53:13.821Z - error: Rendering request 1 finished with error in 331 ms rootId=mt6mnrwk2lsxmyp, id=mt6mnrwk2lsxmyp
+2023-05-08T11:53:56.254Z - error: Error when processing render request 1
+(because) spawn Unknown system error -86
+Error: spawn Unknown system error -86
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at Object.spawn (node:child_process:733:9)
+    at BrowserRunner.start (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/BrowserRunner.js:119:34)
+    at ChromeLauncher.launch (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/ChromeLauncher.js:76:16)
+    at async createBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+    at async allocateBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+    at async getBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+    at async module.exports (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+    at async execute (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+    at async /Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:61:20 rootId=saltfd0re9kf4ao, id=saltfd0re9kf4ao
+2023-05-08T11:53:56.255Z - error: Rendering request 1 finished with error in 276 ms rootId=saltfd0re9kf4ao, id=saltfd0re9kf4ao

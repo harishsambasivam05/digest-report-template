@@ -1,0 +1,607 @@
+2023-05-08T11:35:41.871Z - info: Initializing jsreport (version: 3.11.3, configuration file: jsreport.config.json, nodejs: 16.20.0)
+2023-05-08T11:35:41.872Z - info: Searching for available extensions in /Users/harish/Documents/scrut/digest notifications/jsreportapp/
+2023-05-08T11:35:41.873Z - info: Extensions location cache not found, crawling directories
+2023-05-08T11:35:41.987Z - info: Found 35 extension(s)
+2023-05-08T11:35:42.021Z - info: Using extension base@3.0.1
+2023-05-08T11:35:42.023Z - info: Using extension child-templates@3.1.0
+2023-05-08T11:35:42.025Z - info: Using extension cli@3.2.3
+2023-05-08T11:35:42.025Z - info: Using extension components@3.3.0
+2023-05-08T11:35:42.026Z - info: Using extension data@3.1.0
+2023-05-08T11:35:42.026Z - info: Using extension express@3.7.1
+2023-05-08T11:35:42.108Z - info: Using extension freeze@3.0.1
+2023-05-08T11:35:42.109Z - info: Using extension fs-store@3.2.4
+2023-05-08T11:35:42.396Z - info: Using extension handlebars@3.2.1
+2023-05-08T11:35:42.397Z - info: Using extension import-export@3.2.0
+2023-05-08T11:35:42.403Z - info: Using extension jsrender@3.0.0
+2023-05-08T11:35:42.404Z - info: Using extension licensing@3.0.3
+2023-05-08T11:35:42.408Z - info: Using extension localization@3.2.2
+2023-05-08T11:35:42.409Z - info: Using extension npm@3.1.2
+2023-05-08T11:35:42.412Z - info: Using extension pdf-utils@3.9.0
+2023-05-08T11:35:42.414Z - info: Using extension reports@3.1.1
+2023-05-08T11:35:42.416Z - info: Using extension tags@3.1.1
+2023-05-08T11:35:42.418Z - info: Using extension text@3.0.0
+2023-05-08T11:35:42.418Z - info: Using extension version-control@3.1.2
+2023-05-08T11:35:42.427Z - info: Using extension assets@3.6.0
+2023-05-08T11:35:42.432Z - info: Using extension authorization@3.3.0
+2023-05-08T11:35:42.434Z - info: Using extension browser-client@3.1.1
+2023-05-08T11:35:42.435Z - info: Using extension chrome-pdf@3.3.0
+2023-05-08T11:35:42.437Z - info: Using extension docx@3.7.1
+2023-05-08T11:35:42.438Z - info: Using extension html-to-xlsx@3.3.1
+2023-05-08T11:35:42.470Z - info: html-to-xlsx detected chrome as available html engine
+2023-05-08T11:35:42.470Z - info: Using extension pptx@3.4.0
+2023-05-08T11:35:42.471Z - info: Using extension scheduling@3.0.3
+2023-05-08T11:35:42.488Z - info: Using extension scripts@3.4.1
+2023-05-08T11:35:42.488Z - info: Using extension static-pdf@3.0.1
+2023-05-08T11:35:42.488Z - info: Using extension studio@3.9.2
+2023-05-08T11:35:42.515Z - info: Using extension xlsx@3.4.0
+2023-05-08T11:35:42.523Z - info: Using extension public-templates@3.0.0
+2023-05-08T11:35:42.524Z - info: Using extension sample-template@3.2.1
+2023-05-08T11:35:42.524Z - info: Using extension studio-theme-dark@3.0.1
+2023-05-08T11:35:42.525Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2023-05-08T11:35:42.525Z - info: Using fs provider for template store.
+2023-05-08T11:35:42.527Z - info: fs store is persisting using fs for /Users/harish/Documents/scrut/digest notifications/jsreportapp/data
+2023-05-08T11:35:42.529Z - info: fs store is loading data
+2023-05-08T11:35:42.531Z - info: fs store is initialized successfully
+2023-05-08T11:35:42.544Z - info: Creating default express app.
+2023-05-08T11:35:42.555Z - info: jsreport server successfully started on http port: 9001
+2023-05-08T11:35:42.555Z - info: Verifying license key free
+2023-05-08T11:35:42.555Z - info: Using free license
+2023-05-08T11:35:42.560Z - info: Migrating templates chrome settings (waitForNetworkIddle -> waitForNetworkIdle)
+2023-05-08T11:35:42.561Z - info: Migration successful
+2023-05-08T11:35:42.561Z - info: Initializing worker threads
+2023-05-08T11:35:42.662Z - info: 2 worker threads initialized in 101ms
+2023-05-08T11:35:42.662Z - info: Starting temp files cleanup with 180000ms threshold
+2023-05-08T11:35:42.662Z - info: reporter initialized
+2023-05-08T11:36:08.783Z - info: Render request 1 queued for execution and waiting for available worker rootId=w9hu0z19h0ko38d, id=w9hu0z19h0ko38d
+2023-05-08T11:36:08.803Z - info: Starting rendering request 1 rootId=w9hu0z19h0ko38d, id=w9hu0z19h0ko38d
+2023-05-08T11:36:08.803Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=w9hu0z19h0ko38d, id=w9hu0z19h0ko38d
+2023-05-08T11:36:09.122Z - error: Error when processing render request 1
+(because) spawn Unknown system error -86
+Error: spawn Unknown system error -86
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at Object.spawn (node:child_process:733:9)
+    at BrowserRunner.start (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/BrowserRunner.js:119:34)
+    at ChromeLauncher.launch (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/ChromeLauncher.js:76:16)
+    at async createBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+    at async allocateBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+    at async getBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+    at async module.exports (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+    at async execute (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+    at async /Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:61:20 rootId=w9hu0z19h0ko38d, id=w9hu0z19h0ko38d
+2023-05-08T11:36:09.122Z - error: Rendering request 1 finished with error in 341 ms rootId=w9hu0z19h0ko38d, id=w9hu0z19h0ko38d
+2023-05-08T11:36:14.498Z - info: Render request 2 queued for execution and waiting for available worker rootId=9p68tefl5cpykzk, id=9p68tefl5cpykzk
+2023-05-08T11:36:14.510Z - info: Starting rendering request 2 rootId=9p68tefl5cpykzk, id=9p68tefl5cpykzk
+2023-05-08T11:36:14.511Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=9p68tefl5cpykzk, id=9p68tefl5cpykzk
+2023-05-08T11:37:16.501Z - warn: Report render failed
+(because) report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:9001/studio/profiles/g8X4sYIVQ7Ki4nMG
+Error: Report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:9001/studio/profiles/g8X4sYIVQ7Ki4nMG
+    at Timeout._onTimeout (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/advanced-workers/lib/threadWorker.js:42:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) rootId=9p68tefl5cpykzk, id=9p68tefl5cpykzk
+2023-05-08T11:37:48.991Z - info: Render request 3 queued for execution and waiting for available worker rootId=kkq99iy61rvnsdl, id=kkq99iy61rvnsdl
+2023-05-08T11:37:49.039Z - info: Starting rendering request 3 rootId=kkq99iy61rvnsdl, id=kkq99iy61rvnsdl
+2023-05-08T11:37:49.039Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=kkq99iy61rvnsdl, id=kkq99iy61rvnsdl
+2023-05-08T11:37:49.335Z - error: Error when processing render request 3
+(because) spawn Unknown system error -86
+Error: spawn Unknown system error -86
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at Object.spawn (node:child_process:733:9)
+    at BrowserRunner.start (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/BrowserRunner.js:119:34)
+    at ChromeLauncher.launch (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/ChromeLauncher.js:76:16)
+    at async createBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+    at async allocateBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+    at async getBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+    at async module.exports (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+    at async execute (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+    at async /Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:61:20 rootId=kkq99iy61rvnsdl, id=kkq99iy61rvnsdl
+2023-05-08T11:37:49.335Z - error: Rendering request 3 finished with error in 345 ms rootId=kkq99iy61rvnsdl, id=kkq99iy61rvnsdl
+2023-05-08T11:37:52.677Z - info: Render request 4 queued for execution and waiting for available worker rootId=458kz6a3mh6ycql, id=458kz6a3mh6ycql
+2023-05-08T11:37:52.689Z - info: Starting rendering request 4 rootId=458kz6a3mh6ycql, id=458kz6a3mh6ycql
+2023-05-08T11:37:52.690Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=458kz6a3mh6ycql, id=458kz6a3mh6ycql
+2023-05-08T11:38:54.680Z - warn: Report render failed
+(because) report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:9001/studio/profiles/vDhrzgeOt3A5t3OJ
+Error: Report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:9001/studio/profiles/vDhrzgeOt3A5t3OJ
+    at Timeout._onTimeout (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/advanced-workers/lib/threadWorker.js:42:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) rootId=458kz6a3mh6ycql, id=458kz6a3mh6ycql
+2023-05-08T11:39:05.996Z - info: Render request 5 queued for execution and waiting for available worker rootId=g9ddck7ogvrfe7e, id=g9ddck7ogvrfe7e
+2023-05-08T11:39:06.040Z - info: Starting rendering request 5 rootId=g9ddck7ogvrfe7e, id=g9ddck7ogvrfe7e
+2023-05-08T11:39:06.040Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=g9ddck7ogvrfe7e, id=g9ddck7ogvrfe7e
+2023-05-08T11:39:06.286Z - error: Error when processing render request 5
+(because) spawn Unknown system error -86
+Error: spawn Unknown system error -86
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at Object.spawn (node:child_process:733:9)
+    at BrowserRunner.start (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/BrowserRunner.js:119:34)
+    at ChromeLauncher.launch (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/ChromeLauncher.js:76:16)
+    at async createBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+    at async allocateBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+    at async getBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+    at async module.exports (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+    at async execute (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+    at async /Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:61:20 rootId=g9ddck7ogvrfe7e, id=g9ddck7ogvrfe7e
+2023-05-08T11:39:06.286Z - error: Rendering request 5 finished with error in 289 ms rootId=g9ddck7ogvrfe7e, id=g9ddck7ogvrfe7e
+2023-05-08T11:39:18.407Z - info: Render request 6 queued for execution and waiting for available worker rootId=4uzvfgf7q0oziye, id=4uzvfgf7q0oziye
+2023-05-08T11:39:18.423Z - info: Starting rendering request 6 rootId=4uzvfgf7q0oziye, id=4uzvfgf7q0oziye
+2023-05-08T11:39:18.423Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=4uzvfgf7q0oziye, id=4uzvfgf7q0oziye
+2023-05-08T11:39:18.450Z - warn: Error when processing render request 6
+(because) error when evaluating custom script /samples/Orders/orders-script
+require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["https"] }
+
+(sandbox.js line 2:15)
+
+  1 | // server side script fetching remote data and preparing report data source
+> 2 | const https = require('https');
+    |               ^
+  3 |
+  4 | // call remote http rest api
+  5 | function fetchOrders() {
+
+(sandbox.js line 55:108)
+
+  53 | }
+
+
+Error: require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["https"] }
+    at _require (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/createSandbox.js:79:19)
+    at require (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/createSandbox.js:112:21)
+    at VM2 Wrapper.apply (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/vm2/lib/bridge.js:485:11)
+    at sandbox.js:2:15
+    at sandbox.js:55:108
+    at Script.runInContext (node:vm:141:12)
+    at VM.runScript (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/vm2/lib/vm.js:285:18)
+    at VM.run (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/vm2/lib/vm.js:503:16)
+    at run (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/createSandbox.js:173:25)
+    at run (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/createSandbox.js:184:30) rootId=4uzvfgf7q0oziye, id=4uzvfgf7q0oziye
+2023-05-08T11:39:18.450Z - warn: Rendering request 6 finished with error in 45 ms rootId=4uzvfgf7q0oziye, id=4uzvfgf7q0oziye
+2023-05-08T11:39:22.716Z - info: Render request 7 queued for execution and waiting for available worker rootId=2xk4cbcbuoh1t6t, id=2xk4cbcbuoh1t6t
+2023-05-08T11:39:22.728Z - info: Starting rendering request 7 rootId=2xk4cbcbuoh1t6t, id=2xk4cbcbuoh1t6t
+2023-05-08T11:39:22.729Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=2xk4cbcbuoh1t6t, id=2xk4cbcbuoh1t6t
+2023-05-08T11:39:22.738Z - warn: Error when processing render request 7
+(because) error when evaluating custom script /samples/Orders/orders-script
+require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["https"] }
+
+(sandbox.js line 2:15)
+
+  1 | // server side script fetching remote data and preparing report data source
+> 2 | const https = require('https');
+    |               ^
+  3 |
+  4 | // call remote http rest api
+  5 | function fetchOrders() {
+
+(sandbox.js line 55:108)
+
+  53 | }
+
+
+Error: require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["https"] }
+    at _require (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/createSandbox.js:79:19)
+    at require (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/createSandbox.js:112:21)
+    at VM2 Wrapper.apply (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/vm2/lib/bridge.js:485:11)
+    at sandbox.js:2:15
+    at sandbox.js:55:108
+    at Script.runInContext (node:vm:141:12)
+    at VM.runScript (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/vm2/lib/vm.js:285:18)
+    at VM.run (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/vm2/lib/vm.js:503:16)
+    at run (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/createSandbox.js:173:25)
+    at run (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/createSandbox.js:184:30) rootId=2xk4cbcbuoh1t6t, id=2xk4cbcbuoh1t6t
+2023-05-08T11:39:22.739Z - warn: Rendering request 7 finished with error in 24 ms rootId=2xk4cbcbuoh1t6t, id=2xk4cbcbuoh1t6t
+2023-05-08T11:39:24.958Z - info: Render request 8 queued for execution and waiting for available worker rootId=hkvlkif6bgnp6je, id=hkvlkif6bgnp6je
+2023-05-08T11:39:24.972Z - info: Starting rendering request 8 rootId=hkvlkif6bgnp6je, id=hkvlkif6bgnp6je
+2023-05-08T11:39:24.972Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=hkvlkif6bgnp6je, id=hkvlkif6bgnp6je
+2023-05-08T11:39:24.981Z - warn: Error when processing render request 8
+(because) error when evaluating custom script /samples/Orders/orders-script
+require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["https"] }
+
+(sandbox.js line 2:15)
+
+  1 | // server side script fetching remote data and preparing report data source
+> 2 | const https = require('https');
+    |               ^
+  3 |
+  4 | // call remote http rest api
+  5 | function fetchOrders() {
+
+(sandbox.js line 55:108)
+
+  53 | }
+
+
+Error: require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "trustUserCode": true } or enable just specific module using { sandbox: { allowedModules": ["https"] }
+    at _require (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/createSandbox.js:79:19)
+    at require (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/createSandbox.js:112:21)
+    at VM2 Wrapper.apply (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/vm2/lib/bridge.js:485:11)
+    at sandbox.js:2:15
+    at sandbox.js:55:108
+    at Script.runInContext (node:vm:141:12)
+    at VM.runScript (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/vm2/lib/vm.js:285:18)
+    at VM.run (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/vm2/lib/vm.js:503:16)
+    at run (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/createSandbox.js:173:25)
+    at run (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-core/lib/worker/sandbox/createSandbox.js:184:30) rootId=hkvlkif6bgnp6je, id=hkvlkif6bgnp6je
+2023-05-08T11:39:24.982Z - warn: Rendering request 8 finished with error in 25 ms rootId=hkvlkif6bgnp6je, id=hkvlkif6bgnp6je
+2023-05-08T11:39:43.405Z - info: Initializing jsreport (version: 3.11.3, configuration file: jsreport.config.json, nodejs: 16.20.0)
+2023-05-08T11:39:43.405Z - info: Searching for available extensions in /Users/harish/Documents/scrut/digest notifications/jsreportapp/
+2023-05-08T11:39:43.407Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/harish/Documents/scrut/digest notifications/jsreportapp/
+2023-05-08T11:39:43.410Z - info: Found 35 extension(s)
+2023-05-08T11:39:43.441Z - info: Using extension base@3.0.1
+2023-05-08T11:39:43.443Z - info: Using extension child-templates@3.1.0
+2023-05-08T11:39:43.446Z - info: Using extension cli@3.2.3
+2023-05-08T11:39:43.447Z - info: Using extension components@3.3.0
+2023-05-08T11:39:43.447Z - info: Using extension data@3.1.0
+2023-05-08T11:39:43.447Z - info: Using extension express@3.7.1
+2023-05-08T11:39:43.548Z - info: Using extension freeze@3.0.1
+2023-05-08T11:39:43.549Z - info: Using extension fs-store@3.2.4
+2023-05-08T11:39:43.582Z - info: Using extension handlebars@3.2.1
+2023-05-08T11:39:43.583Z - info: Using extension import-export@3.2.0
+2023-05-08T11:39:43.587Z - info: Using extension jsrender@3.0.0
+2023-05-08T11:39:43.587Z - info: Using extension licensing@3.0.3
+2023-05-08T11:39:43.594Z - info: Using extension localization@3.2.2
+2023-05-08T11:39:43.594Z - info: Using extension npm@3.1.2
+2023-05-08T11:39:43.597Z - info: Using extension pdf-utils@3.9.0
+2023-05-08T11:39:43.598Z - info: Using extension reports@3.1.1
+2023-05-08T11:39:43.600Z - info: Using extension tags@3.1.1
+2023-05-08T11:39:43.601Z - info: Using extension text@3.0.0
+2023-05-08T11:39:43.601Z - info: Using extension version-control@3.1.2
+2023-05-08T11:39:43.609Z - info: Using extension assets@3.6.0
+2023-05-08T11:39:43.614Z - info: Using extension authorization@3.3.0
+2023-05-08T11:39:43.615Z - info: Using extension browser-client@3.1.1
+2023-05-08T11:39:43.616Z - info: Using extension chrome-pdf@3.3.0
+2023-05-08T11:39:43.617Z - info: Using extension docx@3.7.1
+2023-05-08T11:39:43.618Z - info: Using extension html-to-xlsx@3.3.1
+2023-05-08T11:39:43.649Z - info: html-to-xlsx detected chrome as available html engine
+2023-05-08T11:39:43.649Z - info: Using extension pptx@3.4.0
+2023-05-08T11:39:43.650Z - info: Using extension scheduling@3.0.3
+2023-05-08T11:39:43.662Z - info: Using extension scripts@3.4.1
+2023-05-08T11:39:43.663Z - info: Using extension static-pdf@3.0.1
+2023-05-08T11:39:43.663Z - info: Using extension studio@3.9.2
+2023-05-08T11:39:43.689Z - info: Using extension xlsx@3.4.0
+2023-05-08T11:39:43.698Z - info: Using extension public-templates@3.0.0
+2023-05-08T11:39:43.698Z - info: Using extension sample-template@3.2.1
+2023-05-08T11:39:43.699Z - info: Using extension studio-theme-dark@3.0.1
+2023-05-08T11:39:43.700Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2023-05-08T11:39:43.700Z - info: Using general timeout for rendering (reportTimeout: 120000)
+2023-05-08T11:39:43.700Z - info: Using fs provider for template store.
+2023-05-08T11:39:43.703Z - info: fs store is persisting using fs for /Users/harish/Documents/scrut/digest notifications/jsreportapp/data
+2023-05-08T11:39:43.704Z - info: fs store is loading data
+2023-05-08T11:39:43.710Z - info: fs store is initialized successfully
+2023-05-08T11:39:43.715Z - info: Creating default express app.
+2023-05-08T11:39:43.725Z - info: jsreport server successfully started on http port: 9001
+2023-05-08T11:39:43.725Z - info: Verifying license key free
+2023-05-08T11:39:43.726Z - info: Using free license
+2023-05-08T11:39:43.727Z - info: Initializing worker threads
+2023-05-08T11:39:43.820Z - info: 2 worker threads initialized in 93ms
+2023-05-08T11:39:43.820Z - info: Starting temp files cleanup with 180000ms threshold
+2023-05-08T11:39:43.821Z - info: reporter initialized
+2023-05-08T11:39:47.494Z - info: Render request 1 queued for execution and waiting for available worker rootId=e9kefvd1tau17wn, id=e9kefvd1tau17wn
+2023-05-08T11:39:47.523Z - info: Starting rendering request 1 rootId=e9kefvd1tau17wn, id=e9kefvd1tau17wn
+2023-05-08T11:39:47.523Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=e9kefvd1tau17wn, id=e9kefvd1tau17wn
+2023-05-08T11:39:49.741Z - error: Error when processing render request 1
+(because) spawn Unknown system error -86
+Error: spawn Unknown system error -86
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at Object.spawn (node:child_process:733:9)
+    at BrowserRunner.start (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/BrowserRunner.js:119:34)
+    at ChromeLauncher.launch (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/ChromeLauncher.js:76:16)
+    at async createBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+    at async allocateBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+    at async getBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+    at async module.exports (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+    at async execute (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+    at async /Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:61:20 rootId=e9kefvd1tau17wn, id=e9kefvd1tau17wn
+2023-05-08T11:39:49.741Z - error: Rendering request 1 finished with error in 2247 ms rootId=e9kefvd1tau17wn, id=e9kefvd1tau17wn
+2023-05-08T11:41:28.152Z - info: Render request 2 queued for execution and waiting for available worker rootId=qumo500czdv872h, id=qumo500czdv872h
+2023-05-08T11:41:28.171Z - info: Starting rendering request 2 rootId=qumo500czdv872h, id=qumo500czdv872h
+2023-05-08T11:41:28.171Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=qumo500czdv872h, id=qumo500czdv872h
+2023-05-08T11:43:30.158Z - warn: Report render failed
+(because) report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:9001/studio/profiles/FjWGQUTMpuUQNdmp
+Error: Report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:9001/studio/profiles/FjWGQUTMpuUQNdmp
+    at Timeout._onTimeout (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/advanced-workers/lib/threadWorker.js:42:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) rootId=qumo500czdv872h, id=qumo500czdv872h
+2023-05-08T11:43:53.385Z - info: Render request 3 queued for execution and waiting for available worker rootId=oa99ep1f0j8x4gq, id=oa99ep1f0j8x4gq
+2023-05-08T11:43:53.406Z - info: Starting rendering request 3 rootId=oa99ep1f0j8x4gq, id=oa99ep1f0j8x4gq
+2023-05-08T11:43:53.407Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=oa99ep1f0j8x4gq, id=oa99ep1f0j8x4gq
+2023-05-08T11:43:55.406Z - error: Error when processing render request 3
+(because) spawn Unknown system error -86
+Error: spawn Unknown system error -86
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at Object.spawn (node:child_process:733:9)
+    at BrowserRunner.start (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/BrowserRunner.js:119:34)
+    at ChromeLauncher.launch (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/ChromeLauncher.js:76:16)
+    at async createBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+    at async allocateBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+    at async getBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+    at async module.exports (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+    at async execute (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+    at async /Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:61:20 rootId=oa99ep1f0j8x4gq, id=oa99ep1f0j8x4gq
+2023-05-08T11:43:55.407Z - error: Rendering request 3 finished with error in 2023 ms rootId=oa99ep1f0j8x4gq, id=oa99ep1f0j8x4gq
+2023-05-08T11:45:57.302Z - info: Render request 4 queued for execution and waiting for available worker rootId=h2py8ipyh1xywbs, id=h2py8ipyh1xywbs
+2023-05-08T11:45:57.313Z - info: Starting rendering request 4 rootId=h2py8ipyh1xywbs, id=h2py8ipyh1xywbs
+2023-05-08T11:45:57.314Z - info: Rendering template { name: npm, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=h2py8ipyh1xywbs, id=h2py8ipyh1xywbs
+2023-05-08T11:47:31.630Z - warn: Report render failed
+(because) report cancelled by the client or closed network
+Error: Report cancelled by the client or closed network
+    at Object.close (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/advanced-workers/lib/threadWorker.js:156:21)
+    at Object.release (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/advanced-workers/lib/pool.js:38:22)
+    at EventEmitter.<anonymous> (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-core/lib/main/reporter.js:400:18)
+    at Object.onceWrapper (node:events:627:28)
+    at EventEmitter.emit (node:events:513:28)
+    at Socket.<anonymous> (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-express/lib/routes.js:67:20)
+    at Object.onceWrapper (node:events:628:26)
+    at Socket.emit (node:events:525:35)
+    at TCP.<anonymous> (node:net:301:12) rootId=h2py8ipyh1xywbs, id=h2py8ipyh1xywbs
+2023-05-08T11:47:33.174Z - info: Render request 5 queued for execution and waiting for available worker rootId=a74qwgvg3k8ebcb, id=a74qwgvg3k8ebcb
+2023-05-08T11:47:33.220Z - info: Starting rendering request 5 rootId=a74qwgvg3k8ebcb, id=a74qwgvg3k8ebcb
+2023-05-08T11:47:33.220Z - info: Rendering template { name: npm, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=a74qwgvg3k8ebcb, id=a74qwgvg3k8ebcb
+2023-05-08T11:47:33.498Z - error: Error when processing render request 5
+(because) spawn Unknown system error -86
+Error: spawn Unknown system error -86
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at Object.spawn (node:child_process:733:9)
+    at BrowserRunner.start (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/BrowserRunner.js:119:34)
+    at ChromeLauncher.launch (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/ChromeLauncher.js:76:16)
+    at async createBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+    at async allocateBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+    at async getBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+    at async module.exports (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+    at async execute (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+    at async /Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:61:20 rootId=a74qwgvg3k8ebcb, id=a74qwgvg3k8ebcb
+2023-05-08T11:47:33.499Z - error: Rendering request 5 finished with error in 325 ms rootId=a74qwgvg3k8ebcb, id=a74qwgvg3k8ebcb
+2023-05-08T11:48:28.324Z - info: Initializing jsreport (version: 3.11.3, configuration file: jsreport.config.json, nodejs: 16.20.0)
+2023-05-08T11:48:28.325Z - info: Searching for available extensions in /Users/harish/Documents/scrut/digest notifications/jsreportapp/
+2023-05-08T11:48:28.326Z - info: Extensions location cache not found, crawling directories
+2023-05-08T11:48:28.529Z - info: Found 35 extension(s)
+2023-05-08T11:48:28.561Z - info: Using extension base@3.0.1
+2023-05-08T11:48:28.564Z - info: Using extension child-templates@3.1.0
+2023-05-08T11:48:28.565Z - info: Using extension cli@3.2.3
+2023-05-08T11:48:28.566Z - info: Using extension components@3.3.0
+2023-05-08T11:48:28.566Z - info: Using extension data@3.1.0
+2023-05-08T11:48:28.567Z - info: Using extension express@3.7.1
+2023-05-08T11:48:28.665Z - info: Using extension freeze@3.0.1
+2023-05-08T11:48:28.666Z - info: Using extension fs-store@3.2.4
+2023-05-08T11:48:28.697Z - info: Using extension handlebars@3.2.1
+2023-05-08T11:48:28.698Z - info: Using extension import-export@3.2.0
+2023-05-08T11:48:28.701Z - info: Using extension jsrender@3.0.0
+2023-05-08T11:48:28.702Z - info: Using extension licensing@3.0.3
+2023-05-08T11:48:28.708Z - info: Using extension localization@3.2.2
+2023-05-08T11:48:28.708Z - info: Using extension npm@3.1.2
+2023-05-08T11:48:28.709Z - info: Using extension pdf-utils@3.9.0
+2023-05-08T11:48:28.710Z - info: Using extension reports@3.1.1
+2023-05-08T11:48:28.712Z - info: Using extension tags@3.1.1
+2023-05-08T11:48:28.713Z - info: Using extension text@3.0.0
+2023-05-08T11:48:28.713Z - info: Using extension version-control@3.1.2
+2023-05-08T11:48:28.723Z - info: Using extension assets@3.6.0
+2023-05-08T11:48:28.727Z - info: Using extension authorization@3.3.0
+2023-05-08T11:48:28.728Z - info: Using extension browser-client@3.1.1
+2023-05-08T11:48:28.729Z - info: Using extension chrome-pdf@3.3.0
+2023-05-08T11:48:28.731Z - info: Using extension docx@3.7.1
+2023-05-08T11:48:28.731Z - info: Using extension html-to-xlsx@3.3.1
+2023-05-08T11:48:28.762Z - info: html-to-xlsx detected chrome as available html engine
+2023-05-08T11:48:28.762Z - info: Using extension pptx@3.4.0
+2023-05-08T11:48:28.763Z - info: Using extension scheduling@3.0.3
+2023-05-08T11:48:28.775Z - info: Using extension scripts@3.4.1
+2023-05-08T11:48:28.775Z - info: Using extension static-pdf@3.0.1
+2023-05-08T11:48:28.775Z - info: Using extension studio@3.9.2
+2023-05-08T11:48:28.800Z - info: Using extension xlsx@3.4.0
+2023-05-08T11:48:28.808Z - info: Using extension public-templates@3.0.0
+2023-05-08T11:48:28.809Z - info: Using extension sample-template@3.2.1
+2023-05-08T11:48:28.810Z - info: Using extension studio-theme-dark@3.0.1
+2023-05-08T11:48:28.810Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2023-05-08T11:48:28.810Z - info: Using general timeout for rendering (reportTimeout: 120000)
+2023-05-08T11:48:28.810Z - info: Using fs provider for template store.
+2023-05-08T11:48:28.813Z - info: fs store is persisting using fs for /Users/harish/Documents/scrut/digest notifications/jsreportapp/data
+2023-05-08T11:48:28.815Z - info: fs store is loading data
+2023-05-08T11:48:28.820Z - info: fs store is initialized successfully
+2023-05-08T11:48:28.825Z - info: Creating default express app.
+2023-05-08T11:48:28.835Z - info: jsreport server successfully started on http port: 9001
+2023-05-08T11:48:28.836Z - info: Verifying license key free
+2023-05-08T11:48:28.837Z - info: Using free license
+2023-05-08T11:48:28.839Z - info: Initializing worker threads
+2023-05-08T11:48:28.933Z - info: 2 worker threads initialized in 94ms
+2023-05-08T11:48:28.933Z - info: Starting temp files cleanup with 180000ms threshold
+2023-05-08T11:48:28.933Z - info: reporter initialized
+2023-05-08T11:48:38.558Z - info: Render request 1 queued for execution and waiting for available worker rootId=8eqvkeunnj1p064, id=8eqvkeunnj1p064
+2023-05-08T11:48:38.612Z - info: Starting rendering request 1 rootId=8eqvkeunnj1p064, id=8eqvkeunnj1p064
+2023-05-08T11:48:38.613Z - info: Rendering template { name: npm, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=8eqvkeunnj1p064, id=8eqvkeunnj1p064
+2023-05-08T11:48:39.808Z - error: Error when processing render request 1
+(because) spawn Unknown system error -86
+Error: spawn Unknown system error -86
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at Object.spawn (node:child_process:733:9)
+    at BrowserRunner.start (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/BrowserRunner.js:119:34)
+    at ChromeLauncher.launch (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/ChromeLauncher.js:76:16)
+    at async createBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+    at async allocateBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+    at async getBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+    at async module.exports (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+    at async execute (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+    at async /Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:61:20 rootId=8eqvkeunnj1p064, id=8eqvkeunnj1p064
+2023-05-08T11:48:39.808Z - error: Rendering request 1 finished with error in 1253 ms rootId=8eqvkeunnj1p064, id=8eqvkeunnj1p064
+2023-05-08T11:52:20.489Z - info: Initializing jsreport (version: 3.11.3, configuration file: jsreport.config.json, nodejs: 16.20.0)
+2023-05-08T11:52:20.489Z - info: Searching for available extensions in /Users/harish/Documents/scrut/digest notifications/jsreportapp/
+2023-05-08T11:52:20.491Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/harish/Documents/scrut/digest notifications/jsreportapp/
+2023-05-08T11:52:20.497Z - info: Found 35 extension(s)
+2023-05-08T11:52:20.532Z - info: Using extension base@3.0.1
+2023-05-08T11:52:20.535Z - info: Using extension child-templates@3.1.0
+2023-05-08T11:52:20.537Z - info: Using extension cli@3.2.3
+2023-05-08T11:52:20.537Z - info: Using extension components@3.3.0
+2023-05-08T11:52:20.538Z - info: Using extension data@3.1.0
+2023-05-08T11:52:20.538Z - info: Using extension express@3.7.1
+2023-05-08T11:52:20.642Z - info: Using extension freeze@3.0.1
+2023-05-08T11:52:20.643Z - info: Using extension fs-store@3.2.4
+2023-05-08T11:52:20.677Z - info: Using extension handlebars@3.2.1
+2023-05-08T11:52:20.677Z - info: Using extension import-export@3.2.0
+2023-05-08T11:52:20.681Z - info: Using extension jsrender@3.0.0
+2023-05-08T11:52:20.682Z - info: Using extension licensing@3.0.3
+2023-05-08T11:52:20.688Z - info: Using extension localization@3.2.2
+2023-05-08T11:52:20.689Z - info: Using extension npm@3.1.2
+2023-05-08T11:52:20.691Z - info: Using extension pdf-utils@3.9.0
+2023-05-08T11:52:20.692Z - info: Using extension reports@3.1.1
+2023-05-08T11:52:20.694Z - info: Using extension tags@3.1.1
+2023-05-08T11:52:20.695Z - info: Using extension text@3.0.0
+2023-05-08T11:52:20.695Z - info: Using extension version-control@3.1.2
+2023-05-08T11:52:20.704Z - info: Using extension assets@3.6.0
+2023-05-08T11:52:20.709Z - info: Using extension authorization@3.3.0
+2023-05-08T11:52:20.710Z - info: Using extension browser-client@3.1.1
+2023-05-08T11:52:20.712Z - info: Using extension chrome-pdf@3.3.0
+2023-05-08T11:52:20.713Z - info: Using extension docx@3.7.1
+2023-05-08T11:52:20.714Z - info: Using extension html-to-xlsx@3.3.1
+2023-05-08T11:52:20.747Z - info: html-to-xlsx detected chrome as available html engine
+2023-05-08T11:52:20.747Z - info: Using extension pptx@3.4.0
+2023-05-08T11:52:20.748Z - info: Using extension scheduling@3.0.3
+2023-05-08T11:52:20.761Z - info: Using extension scripts@3.4.1
+2023-05-08T11:52:20.761Z - info: Using extension static-pdf@3.0.1
+2023-05-08T11:52:20.761Z - info: Using extension studio@3.9.2
+2023-05-08T11:52:20.793Z - info: Using extension xlsx@3.4.0
+2023-05-08T11:52:20.803Z - info: Using extension public-templates@3.0.0
+2023-05-08T11:52:20.803Z - info: Using extension sample-template@3.2.1
+2023-05-08T11:52:20.804Z - info: Using extension studio-theme-dark@3.0.1
+2023-05-08T11:52:20.805Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2023-05-08T11:52:20.805Z - info: Using general timeout for rendering (reportTimeout: 120000)
+2023-05-08T11:52:20.805Z - info: Using fs provider for template store.
+2023-05-08T11:52:20.808Z - info: fs store is persisting using fs for /Users/harish/Documents/scrut/digest notifications/jsreportapp/data
+2023-05-08T11:52:20.810Z - info: fs store is loading data
+2023-05-08T11:52:20.817Z - info: fs store is initialized successfully
+2023-05-08T11:52:59.974Z - info: Initializing jsreport (version: 3.11.3, configuration file: jsreport.config.json, nodejs: 16.20.0)
+2023-05-08T11:52:59.975Z - info: Searching for available extensions in /Users/harish/Documents/scrut/digest notifications/jsreportapp/
+2023-05-08T11:52:59.977Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/harish/Documents/scrut/digest notifications/jsreportapp/
+2023-05-08T11:52:59.979Z - info: Found 35 extension(s)
+2023-05-08T11:53:00.004Z - info: Using extension base@3.0.1
+2023-05-08T11:53:00.006Z - info: Using extension child-templates@3.1.0
+2023-05-08T11:53:00.008Z - info: Using extension cli@3.2.3
+2023-05-08T11:53:00.008Z - info: Using extension components@3.3.0
+2023-05-08T11:53:00.009Z - info: Using extension data@3.1.0
+2023-05-08T11:53:00.009Z - info: Using extension express@3.7.1
+2023-05-08T11:53:00.061Z - info: Using extension freeze@3.0.1
+2023-05-08T11:53:00.061Z - info: Using extension fs-store@3.2.4
+2023-05-08T11:53:00.079Z - info: Using extension handlebars@3.2.1
+2023-05-08T11:53:00.080Z - info: Using extension import-export@3.2.0
+2023-05-08T11:53:00.082Z - info: Using extension jsrender@3.0.0
+2023-05-08T11:53:00.083Z - info: Using extension licensing@3.0.3
+2023-05-08T11:53:00.086Z - info: Using extension localization@3.2.2
+2023-05-08T11:53:00.086Z - info: Using extension npm@3.1.2
+2023-05-08T11:53:00.088Z - info: Using extension pdf-utils@3.9.0
+2023-05-08T11:53:00.089Z - info: Using extension reports@3.1.1
+2023-05-08T11:53:00.090Z - info: Using extension tags@3.1.1
+2023-05-08T11:53:00.092Z - info: Using extension text@3.0.0
+2023-05-08T11:53:00.093Z - info: Using extension version-control@3.1.2
+2023-05-08T11:53:00.099Z - info: Using extension assets@3.6.0
+2023-05-08T11:53:00.103Z - info: Using extension authorization@3.3.0
+2023-05-08T11:53:00.104Z - info: Using extension browser-client@3.1.1
+2023-05-08T11:53:00.105Z - info: Using extension chrome-pdf@3.3.0
+2023-05-08T11:53:00.107Z - info: Using extension docx@3.7.1
+2023-05-08T11:53:00.107Z - info: Using extension html-to-xlsx@3.3.1
+2023-05-08T11:53:00.140Z - info: html-to-xlsx detected chrome as available html engine
+2023-05-08T11:53:00.140Z - info: Using extension pptx@3.4.0
+2023-05-08T11:53:00.140Z - info: Using extension scheduling@3.0.3
+2023-05-08T11:53:00.156Z - info: Using extension scripts@3.4.1
+2023-05-08T11:53:00.156Z - info: Using extension static-pdf@3.0.1
+2023-05-08T11:53:00.157Z - info: Using extension studio@3.9.2
+2023-05-08T11:53:00.182Z - info: Using extension xlsx@3.4.0
+2023-05-08T11:53:00.190Z - info: Using extension public-templates@3.0.0
+2023-05-08T11:53:00.191Z - info: Using extension sample-template@3.2.1
+2023-05-08T11:53:00.191Z - info: Using extension studio-theme-dark@3.0.1
+2023-05-08T11:53:00.192Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2023-05-08T11:53:00.192Z - info: Using general timeout for rendering (reportTimeout: 120000)
+2023-05-08T11:53:00.192Z - info: Using fs provider for template store.
+2023-05-08T11:53:00.194Z - info: fs store is persisting using fs for /Users/harish/Documents/scrut/digest notifications/jsreportapp/data
+2023-05-08T11:53:00.196Z - info: fs store is loading data
+2023-05-08T11:53:00.201Z - info: fs store is initialized successfully
+2023-05-08T11:53:00.206Z - info: Creating default express app.
+2023-05-08T11:53:00.216Z - info: jsreport server successfully started on http port: 9001
+2023-05-08T11:53:00.217Z - info: Verifying license key free
+2023-05-08T11:53:00.217Z - info: Using free license
+2023-05-08T11:53:00.219Z - info: Initializing worker threads
+2023-05-08T11:53:00.325Z - info: 2 worker threads initialized in 106ms
+2023-05-08T11:53:00.325Z - info: Starting temp files cleanup with 180000ms threshold
+2023-05-08T11:53:00.325Z - info: reporter initialized
+2023-05-08T11:53:13.491Z - info: Render request 1 queued for execution and waiting for available worker rootId=mt6mnrwk2lsxmyp, id=mt6mnrwk2lsxmyp
+2023-05-08T11:53:13.507Z - warn: Failed persist profile EACCES: permission denied, open '/Users/harish/Documents/scrut/digest notifications/jsreportapp/data/profiles' errno=-13, code=EACCES, syscall=open, path=/Users/harish/Documents/scrut/digest notifications/jsreportapp/data/profiles, stack=Error: EACCES: permission denied, open '/Users/harish/Documents/scrut/digest notifications/jsreportapp/data/profiles'
+2023-05-08T11:53:13.543Z - info: Starting rendering request 1 rootId=mt6mnrwk2lsxmyp, id=mt6mnrwk2lsxmyp
+2023-05-08T11:53:13.543Z - info: Rendering template { name: npm, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=mt6mnrwk2lsxmyp, id=mt6mnrwk2lsxmyp
+2023-05-08T11:53:13.820Z - error: Error when processing render request 1
+(because) spawn Unknown system error -86
+Error: spawn Unknown system error -86
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at Object.spawn (node:child_process:733:9)
+    at BrowserRunner.start (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/BrowserRunner.js:119:34)
+    at ChromeLauncher.launch (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/ChromeLauncher.js:76:16)
+    at async createBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+    at async allocateBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+    at async getBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+    at async module.exports (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+    at async execute (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+    at async /Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:61:20 rootId=mt6mnrwk2lsxmyp, id=mt6mnrwk2lsxmyp
+2023-05-08T11:53:13.821Z - error: Rendering request 1 finished with error in 331 ms rootId=mt6mnrwk2lsxmyp, id=mt6mnrwk2lsxmyp
+2023-05-08T11:53:53.175Z - info: Initializing jsreport (version: 3.11.3, configuration file: jsreport.config.json, nodejs: 16.20.0)
+2023-05-08T11:53:53.176Z - info: Searching for available extensions in /Users/harish/Documents/scrut/digest notifications/jsreportapp/
+2023-05-08T11:53:53.178Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/harish/Documents/scrut/digest notifications/jsreportapp/
+2023-05-08T11:53:53.180Z - info: Found 35 extension(s)
+2023-05-08T11:53:53.212Z - info: Using extension base@3.0.1
+2023-05-08T11:53:53.215Z - info: Using extension child-templates@3.1.0
+2023-05-08T11:53:53.219Z - info: Using extension cli@3.2.3
+2023-05-08T11:53:53.220Z - info: Using extension components@3.3.0
+2023-05-08T11:53:53.221Z - info: Using extension data@3.1.0
+2023-05-08T11:53:53.222Z - info: Using extension express@3.7.1
+2023-05-08T11:53:53.331Z - info: Using extension freeze@3.0.1
+2023-05-08T11:53:53.332Z - info: Using extension fs-store@3.2.4
+2023-05-08T11:53:53.364Z - info: Using extension handlebars@3.2.1
+2023-05-08T11:53:53.365Z - info: Using extension import-export@3.2.0
+2023-05-08T11:53:53.369Z - info: Using extension jsrender@3.0.0
+2023-05-08T11:53:53.369Z - info: Using extension licensing@3.0.3
+2023-05-08T11:53:53.379Z - info: Using extension localization@3.2.2
+2023-05-08T11:53:53.380Z - info: Using extension npm@3.1.2
+2023-05-08T11:53:53.385Z - info: Using extension pdf-utils@3.9.0
+2023-05-08T11:53:53.386Z - info: Using extension reports@3.1.1
+2023-05-08T11:53:53.388Z - info: Using extension tags@3.1.1
+2023-05-08T11:53:53.389Z - info: Using extension text@3.0.0
+2023-05-08T11:53:53.390Z - info: Using extension version-control@3.1.2
+2023-05-08T11:53:53.400Z - info: Using extension assets@3.6.0
+2023-05-08T11:53:53.405Z - info: Using extension authorization@3.3.0
+2023-05-08T11:53:53.406Z - info: Using extension browser-client@3.1.1
+2023-05-08T11:53:53.408Z - info: Using extension chrome-pdf@3.3.0
+2023-05-08T11:53:53.409Z - info: Using extension docx@3.7.1
+2023-05-08T11:53:53.410Z - info: Using extension html-to-xlsx@3.3.1
+2023-05-08T11:53:53.443Z - info: html-to-xlsx detected chrome as available html engine
+2023-05-08T11:53:53.443Z - info: Using extension pptx@3.4.0
+2023-05-08T11:53:53.444Z - info: Using extension scheduling@3.0.3
+2023-05-08T11:53:53.460Z - info: Using extension scripts@3.4.1
+2023-05-08T11:53:53.460Z - info: Using extension static-pdf@3.0.1
+2023-05-08T11:53:53.461Z - info: Using extension studio@3.9.2
+2023-05-08T11:53:53.487Z - info: Using extension xlsx@3.4.0
+2023-05-08T11:53:53.494Z - info: Using extension public-templates@3.0.0
+2023-05-08T11:53:53.495Z - info: Using extension sample-template@3.2.1
+2023-05-08T11:53:53.496Z - info: Using extension studio-theme-dark@3.0.1
+2023-05-08T11:53:53.497Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2023-05-08T11:53:53.497Z - info: Using general timeout for rendering (reportTimeout: 120000)
+2023-05-08T11:53:53.497Z - info: Using fs provider for template store.
+2023-05-08T11:53:53.499Z - info: fs store is persisting using fs for /Users/harish/Documents/scrut/digest notifications/jsreportapp/data
+2023-05-08T11:53:53.500Z - info: fs store is loading data
+2023-05-08T11:53:53.505Z - info: fs store is initialized successfully
+2023-05-08T11:53:53.510Z - info: Creating default express app.
+2023-05-08T11:53:53.526Z - info: jsreport server successfully started on http port: 9001
+2023-05-08T11:53:53.527Z - info: Verifying license key free
+2023-05-08T11:53:53.528Z - info: Using free license
+2023-05-08T11:53:53.529Z - info: Initializing worker threads
+2023-05-08T11:53:53.623Z - info: 2 worker threads initialized in 94ms
+2023-05-08T11:53:53.623Z - info: Starting temp files cleanup with 180000ms threshold
+2023-05-08T11:53:53.624Z - info: reporter initialized
+2023-05-08T11:53:55.980Z - info: Render request 1 queued for execution and waiting for available worker rootId=saltfd0re9kf4ao, id=saltfd0re9kf4ao
+2023-05-08T11:53:55.992Z - warn: Failed persist profile EACCES: permission denied, open '/Users/harish/Documents/scrut/digest notifications/jsreportapp/data/profiles' errno=-13, code=EACCES, syscall=open, path=/Users/harish/Documents/scrut/digest notifications/jsreportapp/data/profiles, stack=Error: EACCES: permission denied, open '/Users/harish/Documents/scrut/digest notifications/jsreportapp/data/profiles'
+2023-05-08T11:53:56.025Z - info: Starting rendering request 1 rootId=saltfd0re9kf4ao, id=saltfd0re9kf4ao
+2023-05-08T11:53:56.026Z - info: Rendering template { name: npm, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=saltfd0re9kf4ao, id=saltfd0re9kf4ao
+2023-05-08T11:53:56.254Z - error: Error when processing render request 1
+(because) spawn Unknown system error -86
+Error: spawn Unknown system error -86
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at Object.spawn (node:child_process:733:9)
+    at BrowserRunner.start (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/BrowserRunner.js:119:34)
+    at ChromeLauncher.launch (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/puppeteer/lib/cjs/puppeteer/node/ChromeLauncher.js:76:16)
+    at async createBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:98:26)
+    at async allocateBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:113:5)
+    at async getBrowser (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:23:30)
+    at async module.exports (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/conversion.js:11:19)
+    at async execute (/Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/chromePoolStrategy.js:20:22)
+    at async /Users/harish/Documents/scrut/digest notifications/jsreportapp/node_modules/@jsreport/jsreport-chrome-pdf/lib/lazyRecipe.js:61:20 rootId=saltfd0re9kf4ao, id=saltfd0re9kf4ao
+2023-05-08T11:53:56.255Z - error: Rendering request 1 finished with error in 276 ms rootId=saltfd0re9kf4ao, id=saltfd0re9kf4ao

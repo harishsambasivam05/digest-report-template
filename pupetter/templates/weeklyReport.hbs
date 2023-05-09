@@ -1,0 +1,173 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{title}}</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <style>
+      * {
+          padding:0;
+          margin:0;
+          box-sizing: border-box;
+          font-family: 'Roboto', sans-serif;
+        }
+
+        .container {
+            margin: 1rem;
+            border-radius: 5px;
+            width: 100vw;
+        }
+
+        .heading {
+          display: flex;
+          padding: 1rem;
+          align-items: center;
+        }
+
+        .heading-logo {
+          background-color: rgba(0,0,0,0.3);
+          border-radius: 999px;
+          height: 4rem;
+          width: 4rem;
+          margin-left: auto;
+        }
+
+        .heading-title {
+          font-size: 1.7rem;
+          font-weight: bold;
+        }
+
+        .heading-timeline {
+          margin-top: 0.5rem;
+        }
+
+        .summary-chart {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          margin: 1rem;
+        }
+
+        #weeklyAnalysis, #issuesFound {
+          margin: 1rem;
+        }
+
+        .summary {
+            margin: 1rem;
+        }
+
+    </style>
+  </head>
+  <body >
+  <div class="container">
+      <div class="heading">
+          <div class="heading-text">
+            <p class="heading-title">Weekly Update from Scrut Automation</p>
+            <p class="heading-timeline">May 1st, 2023 – May 8th, 2023</p>
+          </div>
+          <div class="heading-logo"></div>
+      </div>
+
+      <div class="description" style="margin: 1rem">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima modi quos assumenda impedit molestias vero aliquid officia consequatur in eum.
+      </div>
+
+      <div class="summary-chart">
+        <h3>Total Project Issues</h3>
+        <canvas id="weeklyAnalysis" width="100%"></canvas>
+        <h3>Total Project Scans</h3>
+        <canvas id="issuesFound" width="100%"></canvas>
+      </div>
+
+      <div class="summary">
+        <h3>Issues with the most errors</h3>
+        <div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+
+      // get all the canvas elements to render charts
+      var ctx = document.getElementById('issuesFound').getContext('2d');
+      var weeklyAnalysis = document.getElementById('weeklyAnalysis').getContext('2d');
+
+     // weekly analysis with dynamic data
+       var myChart = new Chart(ctx, { 
+        type: 'bar', 
+        data: { 
+          labels: {{{json dataLabels}}}, 
+          datasets: [
+            { 
+              label: "Scanned", 
+              data: {{{json seriesData}}}
+            }
+          ] 
+        },
+        options: {
+          plugins: {
+            legend: {
+              position: 'bottom'
+            }
+          },
+           scales: {
+              x: {
+                grid: {
+                  display: false
+                },
+              },
+              y: {
+                grid: {
+                  display: false
+                },
+              }
+            }
+          }
+      });
+
+
+    // weekly analysis
+    var chart = new Chart(weeklyAnalysis, {
+      type: 'bar',
+      data: {
+        labels: ['W1', 'W2', 'W3', 'W4'],
+        datasets: [{
+          label: 'Resolved',
+          data: [50, 60, 70, 180]
+        }, {
+          label: 'Open Issues',
+          data: [100, 200, 300, 400]
+        }, 
+        {
+          label: "Pending",
+          data: [50, 22, 33, 122]
+        }
+        ]
+      },
+      options: {
+       plugins: {
+            legend: {
+              position: 'bottom'
+            }
+       },
+       scales: {
+          x: {
+            grid: {
+              display: false
+            },
+            stacked: true
+          },
+          y: {
+            grid: {
+              display: false
+            },
+            stacked: true
+          }
+        }
+      }
+    });
+    </script>
+  </body>
+</html>
